@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed Collection</title>
+    <style>
+        body {
+            background-color: #ECF8FD;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #008080;
+            font-family: 'Arial';
+            color: #ECF8FD;
+            text-align: center;
+            padding: 2em;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 4em;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .hero-section p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #008080;
+            color: #ECF8FD;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #005353;
+        }
+
+        footer {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 0.5em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .explore-section {
+            text-align: center;
+            padding: 4em;
+        }
+
+        .seed-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .seed-card {
+            width: 300px;
+            margin: 1em;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .seed-card img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        .seed-card h3,
+        .seed-card p {
+            color: #333; 
+        }
+       
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1><b><font size='24'>Seed Collection</font></b></h1>
+    </header>
+
+    <div class="hero-section">
+        <h1>Welcome to our Seed Collection!</h1>
+        <p>Explore a variety of seeds to kickstart your gardening journey. Join us in promoting sustainable and eco-friendly practices.</p>
+        <a href="#explore" class="cta-button">Explore Seeds</a>
+    </div>
+    <div class="explore-section" id="explore">
+        <h2>Explore Our Seed Collection</h2>
+
+
+
+         <div class="seed-container">
+            <div class="seed-card">
+                <img src="https://curlytales.com/wp-content/uploads/2023/03/pumpkin-seed-1.jpg" alt="pumpkin Seed">
+                <h3>Seed Name :<i>PUMPKIN </i></h3>
+                <p>Description of pumpkin Seed:<br> Anti-inflammatory abilities can help maintain good function in the liver, bladder, bowel, and joints.</p>
+            </div>
+         </div>
+    
+            <div class="seed-container">
+              <div class="seed-card">
+                 <img src="https://www.singals.ca/cdn/shop/products/oie_23174513Ijid8HcU.jpg?v=1561207156" alt="Black sesame Seed">
+                 <h3>Seed Name :<i>BLACK SESAME</i></h3>
+                 <p>Description of Black sesame Seed:<br> Promoting heart health by reducing LDL cholesterol levels and improving blood vessel function.</p>
+              </div>
+            </div>
+          
+     
+        <div class="seed-container">
+            <div class="seed-card">
+                <img src="https://images1.dnaindia.com/images/DNA-EN/900x1600/2023/8/16/1692180674257_Jeerahealthbenefits.jpg" alt="Cumin Seed">
+                <h3>Seed Name :<i>CUMIN</i></h3>
+                <p>Description of Cumin Seed:<br> It increases antioxidant intake, promotes digestion, provides iron, may improve blood sugar control and may reduce food-borne                        illnesses.</p>
+            </div>
+          </div>
+     
+
+    
+           <div class="seed-container">
+            <div class="seed-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpfi72iUBJTbUx9yPygf9NeX3KnIQe3qEnX_UpQsC3_44izHL_d9QwL7pkq0lNReeLlOQ&usqp=CAU" alt="Corn Seed">
+                <h3>Seed Name :<i>CORN</i></h3>
+                <p>Description of Corn Seed:<br> Corn is high in dietary fiber, which is necessary for maintaining a healthy lifestyle.</p>
+            </div>
+            </div>
+           <div class="seed-container">
+            <div class="seed-card">
+                <img src="https://www.wildturmeric.net/wp-content/uploads/2017/07/004-3.jpg" alt="Fenugreek Seed">
+                <h3>Seed Name :<i>FENUGREEK</i></h3>
+                <p>Description of Fenugreek Seed:<br> Health-promoting qualities and abilities to treat various issues, including digestive problems, skin conditions, hair problems, and leg weakness. </p>
+            </div>
+            </div>
+       
+          
+           
+
+    <!-- Additional content, such as seed images and details, can be added here -->
+
+    <footer>
+        <p>&copy; 2023 Seed Collection. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
